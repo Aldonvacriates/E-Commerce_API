@@ -73,7 +73,7 @@ curl -X POST http://localhost:5000/orders \
 ```
 
 ## Troubleshooting
-- If you see MySQL connection errors, confirm that the `mysql+mysqlconnector://root:Lolita1!@localhost/ecommerce_api` URI matches your local setup. Update it or load it from environment variables if needed.
+- If you see MySQL connection errors, confirm that the `mysql+mysqlconnector://root:<PASSWORD>@localhost/ecommerce_api` URI matches your local setup. Update it or load it from environment variables if needed.
 - The `/init-db` endpoint is idempotent, but database schema changes require migrations. Consider introducing Flask-Migrate for production-grade workflows.
 
 ## Next steps
