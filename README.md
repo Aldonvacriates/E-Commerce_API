@@ -1,4 +1,4 @@
-# E-commerce API
+# E-Commerce API
 
 Flask-based REST API for managing the core entities of a minimal e-commerce platform. It exposes CRUD endpoints for users and products, plus order management with user-product associations.
 
